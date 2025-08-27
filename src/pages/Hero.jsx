@@ -36,7 +36,7 @@ const Hero = () => {
         const movie = item.movie;
         return (
           <SwiperSlide key={movie.id}>
-            <div className="relative w-full h-[80vh] sm:min-h-[100vh] flex flex-col justify-center text-white overflow-hidden">
+            <div className="relative w-full min-h-[100vh] flex flex-col justify-center text-white overflow-hidden">
               <div className="absolute hero-bg inset-0 bg-cover bg-center"
                 style={{ backgroundImage: `linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url('https://kinotime.world${movie.backdrop}')` }} >
               </div>
