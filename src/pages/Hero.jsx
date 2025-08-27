@@ -57,7 +57,7 @@ const Hero = () => {
                   <LogoTvIcon />
                 </div>
 
-                <p className="font-semibold text-center sm:text-start w-full line-clamp-1 text-[16px]">
+                <p className="font-semibold text-center sm:text-start sm:mx-0 mx-auto w-[80%] sm:w-full line-clamp-1 text-[16px]">
                   {movie.genres.map(g => g.name).join(", ")}
                 </p>
 
