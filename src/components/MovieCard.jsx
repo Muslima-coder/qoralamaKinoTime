@@ -2,7 +2,7 @@ import { Icon2, Icon3, SearchIMDBIcon } from "../assets/icons";
 
 export default function MovieCard({ title, poster, year, imdbRating, genre, country }) {
   return (
-    <div>
+    <div className="max-w-[151px] overflow-hidden">
     <div className="movie-card pt-[20px]">  
       <img src={`https://kinotime.world${poster}`} alt={title} className="w-[151px] h-[217px] movie-poster rounded-xl hover:rounded-xl"/>
        <div className="flex flex-col">
@@ -26,7 +26,7 @@ export default function MovieCard({ title, poster, year, imdbRating, genre, coun
         </div>
       </div>
     </div> 
-    <h3 className="text-[18px] font-bold text-[#fff] pt-[10px] line-clamp-1 cursor-pointer">{title}</h3>
+    <h3 className="text-[18px] w-full font-bold text-[#fff] pt-[10px] line-clamp-1 cursor-pointer">{title}</h3>
     <p className="text-[14px] text-[rgb(82,176,56)]  cursor-pointer">Obuna</p>
     </div>
   );

@@ -110,7 +110,7 @@ body {
 }
 
 .movie-card {
-  width: 157px;
+  max-width:157px !important;
   border-radius: 10px;
   overflow: hidden;
   transition: transform 0.4s ease;
@@ -156,3 +156,5 @@ body {
   width: 6px !important;
   height: 12px !important;
 }
+
+

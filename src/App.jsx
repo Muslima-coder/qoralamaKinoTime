@@ -2,6 +2,8 @@
 // import Hero from "./pages/Hero";
 // import SingleMovie from "./pages/SingleMovie";
 
+import SearchPart from "./pages/SearchPart"
+
 
 // function App() {
 //   return (
