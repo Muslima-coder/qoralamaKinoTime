@@ -61,20 +61,20 @@ const Hero = () => {
                   {movie.genres.map(g => g.name).join(", ")}
                 </p>
 
-                <div className="mt-[30px] sm:justify-start justify-center flex items-center gap-[15px]">
+                <div className="relative sm:static mt-[30px] sm:justify-start justify-center flex items-center gap-[15px]">
 
                   <Link to={`/singleMovie/${item.id}`} className="w-[151px] h-[50px] flex items-center justify-center font-medium text-[18px] cursor-pointer text-white bg-[rgb(82,176,56)] rounded-lg text-center ">
                     Ko'rish
                   </Link>
 
-                  <div className="relative">
+                  <div className="sm:relative static">
                     <button onClick={() => setMenu(prev => !prev)} className="text-white w-[50px] h-[49px] rounded-lg flex items-center justify-center bg-[#849dab42]  hover:bg-[#3748086b5] duration-300 cursor-pointer">
                       <ShareIcon />
                     </button>
 
 
                     {menu && (
-                      <div className="absolute right-0 left-0 top-0 mt-10 mb-10 w-[214px] rounded-md bg-[rgb(29,31,30)] backdrop-blur-[5px] z-50 overflow-hidden">
+                      <div className="absolute mx-auto right-0 left-0 top-0 mt-13 sm:mt-10 mb-10 w-[214px] rounded-md bg-[rgb(29,31,30)] backdrop-blur-[5px] z-50 overflow-hidden">
                         <a
                           className="flex items-center gap-[15px] text-[16px] p-3 duration-300 hover:bg-[rgb(52,54,53)] rounded-tl-md rounded-tr-md"
                           href="#">
