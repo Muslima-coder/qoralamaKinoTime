@@ -74,7 +74,7 @@ const Hero = () => {
 
 
                     {menu && (
-                      <div className="absolute left-0 top-0 mt-10 mb-10 w-[214px] rounded-md bg-[rgb(29,31,30)] backdrop-blur-[5px] z-50 overflow-hidden">
+                      <div className="absolute right-0 left-0 top-0 mt-10 mb-10 w-[214px] rounded-md bg-[rgb(29,31,30)] backdrop-blur-[5px] z-50 overflow-hidden">
                         <a
                           className="flex items-center gap-[15px] text-[16px] p-3 duration-300 hover:bg-[rgb(52,54,53)] rounded-tl-md rounded-tr-md"
                           href="#">
